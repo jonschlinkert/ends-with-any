@@ -1,0 +1,35 @@
+{
+  "name": "ends-with-any",
+  "description": "Returns true if the given string or array ends with any of the given substrings.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/ends-with-any",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/ends-with-any",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/ends-with-any/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "ends-with": "^0.2.0",
+    "kind-of": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "verb": {
+    "related": {
+      "list": ["starts-with", "starts-with-any", "ends-with", "ends-with-any"]
+    }
+  }
+}
